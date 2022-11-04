@@ -1,0 +1,50 @@
+[
+{
+"nombre":"Lautaro",
+"apellido":"Diaz",
+"edad":27,
+"precioAsiento":200,
+"pagado":true,
+"asiento": {
+    "numero":13,
+    "letra": "F",
+    "cargador":false
+},
+"historial": [
+{
+    "salida": "Nueva York",
+    "destino": "Chicago",
+    "fecha": "09/09/2020"
+}
+]
+},
+{
+    "nombre":"Juan",
+    "apellido":"Cervantes",
+    "edad": 32,
+    "precio": 280,
+    "pagado":false,
+    "asiento": {
+        "numero":10,
+        "letra": "J",
+        "cargador":true
+},
+"historial":[]
+
+
+ }]
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
