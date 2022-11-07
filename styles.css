@@ -9,7 +9,7 @@ body {
 
 /* Containers */
 .container-nav {
-  padding: 1% 1%;
+  padding: 5% 5%;
 }
 
 .cointaner-banner {
@@ -369,7 +369,7 @@ td {
 
 
 
-@media (max-width: 864px) {
+@media (max-width: 750px) {
   .minombre {
     font-size: 1.3rem;
   }
@@ -377,5 +377,9 @@ td {
   .minombretexto {
     font-size: 1.3rem;
   }
+
+.mifotitoo {
+  max-width: 80%;
+}
 
 }
