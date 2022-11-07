@@ -282,7 +282,7 @@ td {
   padding: 1% 1%;
   border-radius: 7px;
   margin-top: 2rem;
-  left: 1%;
+
 
 
 
@@ -362,3 +362,7 @@ td {
 
 
 
+
+.sectorsito {
+  background-color: darkmagenta;
+}
