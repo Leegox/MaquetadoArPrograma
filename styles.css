@@ -366,3 +366,16 @@ td {
 .sectorsito {
   background-color: darkmagenta;
 }
+
+
+
+@media (max-width: 864px) {
+  .minombre {
+    font-size: 1.3rem;
+  }
+
+  .minombretexto {
+    font-size: 1.3rem;
+  }
+
+}
