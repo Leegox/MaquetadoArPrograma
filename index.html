@@ -36,6 +36,17 @@
     </div>
     <div id="app"">
 
+
+
+
+
+
+
+
+
+
+      
+
   <section class="colored-section" id="title">
 
     <div class="container-fluid container-nav">
@@ -62,14 +73,12 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href=#LogOut>  <i class="fa-solid fa-right-from-bracket"></i> </a>
-
             </li>
           </ul>
         </div>
       </nav>
     </div>
   </section>
-
 
 
 <!-- Banner  -->
@@ -133,18 +142,174 @@
  <li>Actualmente estoy cursando en <strong><a href="https://www.freecodecamp.org/">Freecodecamp</a></strong></li>
  <li>Actualmente estoy cursando en <strong><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Udemy</a></strong></li>
 
+
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+   Seleccione
+  </a>
+
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item active" href="#"><i class="fa-regular fa-pen-to-square"></i> Editar Seccion</a></li>
+    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i> Eliminar Seccion</a></li>
+    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-plus"></i> Agregar Seccion</a></li>
+  </ul>
+</div>
  
   </ul>
 
-  <button type="button" class="btn btn-outline-success"><i class="fa-regular fa-pen-to-square"></i> Editar Seccion</button>
-  <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i> Eliminar Seccion</button>
+  <!--   <button type="button" class="btn btn-outline-success"><i class="fa-regular fa-pen-to-square"></i> Editar Seccion</button>
+  <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i> Eliminar Seccion</button> -->
 
-  </section>
+  
+
+  <section id="steps">
+  <main>
+
+    <div class=" container rounded-3 border border-3 border-dark my-5 bg-white" style="height:auto;">
+      <div>
+      <h1 class=" todolist">Lista </h1> 
+  <div class="row">
+          <div class=" col-8">
+      <input class=" py-3 form-control shadow" placeholder="input your task" type="text" id="inputText"> 
+          </div>
+          <div class="col-2">
+              <!-- <i onclick="addList()" class=" btn btn-dark rounded-pill fas fa-4x fa-plus-circle "></i> -->
+              <button onclick="addList()" class=" mt-2 btn btn-dark"> Agregar </button>
+          </div>
+      </div>
+  </div>
+      <hr>
+  <div class="row rounded bg-white">
+      <div class=" col-12"> 
+      <ul class=" list-group" id="list"></ul>
+      </div> 
+  </div> 
+  
+  </div>
 
 
 
+    <!-- Start Stepper HTML -->
+<div class="container">
+<div class="accordion" id="accordionExample">
+<div class="steps">
+    <progress id="progress" value=0 max=100 ></progress>
+    <div class="step-item">
+        <button class="step-button text-center" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            1
+        </button>
+        <div class="step-title">
+            Primer paso
+        </div>
+    </div>
+    <div class="step-item">
+        <button class="step-button text-center collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            2
+        </button>
+        <div class="step-title">
+            Segundo paso
+        </div>
+    </div>
+    <div class="step-item">
+        <button class="step-button text-center collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            3
+        </button>
+        <div class="step-title">
+            Tercer paso
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div  id="headingOne">
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="card-body">
+            Editar Seccion:
+            Selecione para modificar fechas, cursos, imagenes.
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div  id="headingTwo">
+
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="card-body">
+           Eliminar Seccion: <br>
+            <p class="text-muted">Seleccione para eliminar seccion.</p>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div  id="headingThree">
+
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="card-body">
+            Agregar Seccion:
+            Seleccione para agregar nueva seccion, fechas, cursos, imagenes.
+        </div>
+    </div>
+</div>
+</div>
+</div>
+         <!-- End Start Stepper HTML -->
+ </main>
+
+ </section>
+
+<section>
 
 
+
+  <div class="containerskill">
+    <div class="skill-box">
+        <span class="title">HTML</span>
+
+        <div class="skill-bar">
+            <span class="skill-per html">
+                <span class="tooltip">90%</span>
+            </span>
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <span class="title">CSS</span>
+
+        <div class="skill-bar">
+            <span class="skill-per css">
+                <span class="tooltip">70%</span>
+            </span>
+        </div>
+    </div>
+    <div class="skill-box">
+        <span class="title">JavaScript</span>
+
+        <div class="skill-bar">
+            <span class="skill-per javascript">
+                <span class="tooltip">50%</span>
+            </span>
+        </div>
+    </div>
+    <div class="skill-box">
+        <span class="title">NodeJS</span>
+
+        <div class="skill-bar">
+            <span class="skill-per nodejs">
+                <span class="tooltip">10%</span>
+            </span>
+        </div>
+    </div>
+
+  </div>
+</section>
 
 
 
@@ -176,6 +341,34 @@
 
   </div>
   </div>
+  <script src="output/app.js"></script>
   <script src="index.js"></script>
+  <script src="js/to-do-list.js"></script>
+
+
+
+
+  <script>
+    const stepButtons = document.querySelectorAll('.step-button');
+    const progress = document.querySelector('#progress');
+    
+    Array.from(stepButtons).forEach((button,index) => {
+        button.addEventListener('click', () => {
+            progress.setAttribute('value', index * 100 /(stepButtons.length - 1) );//there are 3 buttons. 2 spaces.
+    
+            stepButtons.forEach((item, secindex)=>{
+                if(index > secindex){
+                    item.classList.add('done');
+                }
+                if(index < secindex){
+                    item.classList.remove('done');
+                }
+            })
+        })
+    })
+    </script>
+
+
+
 </body>
 </html>
